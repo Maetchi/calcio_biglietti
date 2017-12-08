@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @Controller
-public class SampleController {
+public class SampleJspController {
 
 	@RequestMapping(value = "/", method = GET)
 	public String show() {
